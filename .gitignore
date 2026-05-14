@@ -1,0 +1,34 @@
+# Blender working files (kept in source folder per CLAUDE.md convention)
+*.blend1
+*.blend2
+*.blend@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Example build output — regeneratable, don't commit
+# Keep `renders/` (small screenshots, showcase value in README)
+# Exclude `output/` (large .blend + .glb, users run build.py to regenerate)
+examples/*/output/
+
+# Personal — never commit
+private/
+*.local.*
+
+# Logs
+*.log
